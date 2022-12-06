@@ -1,0 +1,62 @@
+﻿@model IEnumerable<Enrollment>
+@{
+    ViewData["Title"] = "Index";
+}
+<h1>Index Enrollment</h1>
+
+@*@if (TempData["success"] != null)
+{
+    <h3>@TempData["success"]</h3>
+}*@
+<partial name="_Notification" />
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Enrollment List</h2>"
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="Enrollment" asp-action="Create" class="btn btn-primary">
+                Create New Enrollment
+            </a>
+        </div>
+    </div>
+</div>
+
+<table class="table table-bordered table-striped">
+
+    <thead>
+        <tr>
+            <th>
+                Student
+            </th>
+            <th>
+                Grade
+            </th>
+            <th />
+            <th />
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var obj in Model)
+        {
+            <tr>
+                <td width="50%">
+                    @obj.Student.Name
+                </td>
+                <td width="30%">
+                    @obj.Grade
+                </td>
+                <td>
+                    <div class="w-75 btn-group" role="group">
+                        <a asp-controller="Enrollment" asp-action="Edit" asp-route-id="@obj.Id">Edit</a>
+                    </div>
+                </td>
+                <td>
+                    <div class="w-75 btn-group" role="group">
+                        <a asp-controller="Enrollment" asp-action="Delete" asp-route-id="@obj.Id">Delete</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

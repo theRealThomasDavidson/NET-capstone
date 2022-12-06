@@ -1,0 +1,15 @@
+C:\Users\david\Projects\NET-workspace\StudentProjectAttempt6\StudentProjectAttempt6.Models\bin\Debug\net6.0\StudentProjectAttempt6.Models.exe
+C:\Users\david\Projects\NET-workspace\StudentProjectAttempt6\StudentProjectAttempt6.Models\bin\Debug\net6.0\StudentProjectAttempt6.Models.deps.json
+C:\Users\david\Projects\NET-workspace\StudentProjectAttempt6\StudentProjectAttempt6.Models\bin\Debug\net6.0\StudentProjectAttempt6.Models.runtimeconfig.json
+C:\Users\david\Projects\NET-workspace\StudentProjectAttempt6\StudentProjectAttempt6.Models\bin\Debug\net6.0\StudentProjectAttempt6.Models.dll
+C:\Users\david\Projects\NET-workspace\StudentProjectAttempt6\StudentProjectAttempt6.Models\bin\Debug\net6.0\StudentProjectAttempt6.Models.pdb
+C:\Users\david\Projects\NET-workspace\StudentProjectAttempt6\StudentProjectAttempt6.Models\obj\Debug\net6.0\StudentProjectAttempt6.Models.csproj.AssemblyReference.cache
+C:\Users\david\Projects\NET-workspace\StudentProjectAttempt6\StudentProjectAttempt6.Models\obj\Debug\net6.0\StudentProjectAttempt6.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\Projects\NET-workspace\StudentProjectAttempt6\StudentProjectAttempt6.Models\obj\Debug\net6.0\StudentProjectAttempt6.Models.AssemblyInfoInputs.cache
+C:\Users\david\Projects\NET-workspace\StudentProjectAttempt6\StudentProjectAttempt6.Models\obj\Debug\net6.0\StudentProjectAttempt6.Models.AssemblyInfo.cs
+C:\Users\david\Projects\NET-workspace\StudentProjectAttempt6\StudentProjectAttempt6.Models\obj\Debug\net6.0\StudentProjectAttempt6.Models.csproj.CoreCompileInputs.cache
+C:\Users\david\Projects\NET-workspace\StudentProjectAttempt6\StudentProjectAttempt6.Models\obj\Debug\net6.0\StudentProjectAttempt6.Models.dll
+C:\Users\david\Projects\NET-workspace\StudentProjectAttempt6\StudentProjectAttempt6.Models\obj\Debug\net6.0\refint\StudentProjectAttempt6.Models.dll
+C:\Users\david\Projects\NET-workspace\StudentProjectAttempt6\StudentProjectAttempt6.Models\obj\Debug\net6.0\StudentProjectAttempt6.Models.pdb
+C:\Users\david\Projects\NET-workspace\StudentProjectAttempt6\StudentProjectAttempt6.Models\obj\Debug\net6.0\StudentProjectAttempt6.Models.genruntimeconfig.cache
+C:\Users\david\Projects\NET-workspace\StudentProjectAttempt6\StudentProjectAttempt6.Models\obj\Debug\net6.0\ref\StudentProjectAttempt6.Models.dll

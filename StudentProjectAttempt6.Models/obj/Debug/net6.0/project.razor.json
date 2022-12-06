@@ -1,0 +1,19 @@
+{
+  "FilePath": "c:\\Users\\david\\Projects\\NET-workspace\\StudentProjectAttempt6\\StudentProjectAttempt6.Models\\StudentProjectAttempt6.Models.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "6.0",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-3.0"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 1000
+  },
+  "RootNamespace": "StudentProjectAttempt6.Models",
+  "Documents": [],
+  "SerializationFormat": "0.2"
+}
