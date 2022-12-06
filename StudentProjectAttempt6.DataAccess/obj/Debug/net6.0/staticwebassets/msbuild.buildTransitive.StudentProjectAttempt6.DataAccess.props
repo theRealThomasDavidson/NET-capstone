@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\StudentProjectAttempt6.DataAccess.props" />
-</Project>

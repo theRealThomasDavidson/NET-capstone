@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\StudentProjectAttempt6.DataAccess.props" />
-</Project>
