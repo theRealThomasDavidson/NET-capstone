@@ -1,6 +1,6 @@
-####JUMP capstone for C#/.Net/Angular
+# JUMP capstone for C#/.Net/Angular
 
-##Docker
+### Docker
 
 to create a container from our repo you will need docker running on linux on your computer. 
 
