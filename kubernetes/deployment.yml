@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: jumpcapstone 
+spec:
+  replicas: #replicaNo#
+  selector:
+    matchLabels:
+      app: jumpcapstone
+  template:
+    metadata:
+      labels:
+        app: jumpcapstone 
+    spec:
+      containers:
+        - name: jumpcapstone 
+          image: jumpcapstone.azurecr.io/jumpcaptone
+          ports:
+          - containerPort: 80
