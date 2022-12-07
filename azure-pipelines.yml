@@ -1,5 +1,5 @@
-# Docker
-# Build a Docker image
+# Deploy to Azure Kubernetes Service
+# Build and push image to Azure Container Registry; Deploy to Azure Kubernetes Service
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
 trigger:
@@ -9,62 +9,71 @@ resources:
 - repo: self
 
 variables:
-  imageRepo: jumpcapstoneTest
+
+  # Container registry service connection established during pipeline creation
+  dockerRegistryServiceConnection: '198bba1a-c849-4b6a-b030-db6867d7ae9b'
+  imageRepository: 'regannetcapstone'
+  containerRegistry: 'jumpcapstone.azurecr.io'
+  dockerfilePath: '**/Dockerfile'
   tag: '$(Build.BuildId)'
+  imagePullSecret: 'jumpcapstone2145f88c-auth'
+
+  # Agent VM image name
+  vmImageName: 'ubuntu-latest'
+
 
 stages:
 - stage: Build
-  displayName: Build image
+  displayName: Build stage
   jobs:
   - job: Build
     displayName: Build
     pool:
-      vmImage: ubuntu-latest
+      vmImage: $(vmImageName)
     steps:
     - task: Docker@2
-      displayName: Build an image
+      displayName: Build and push an image to container registry
       inputs:
-        containerRegistry: 'jumpImage'
-        repository: '$(imageRepo)'
         command: buildAndPush
-        dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
+        repository: $(imageRepository)
+        dockerfile: $(dockerfilePath)
+        containerRegistry: $(dockerRegistryServiceConnection)
         tags: |
           $(tag)
-    - task: PublishPipelineArtifact@1
-      inputs:
-        targetPath: '$(Pipeline.Workspace)/s/kubernetes'
-        artifact: 'manifests'
-        publishLocation: 'pipeline'
+
+    - upload: manifests
+      artifact: manifests
 
 - stage: Deploy
-  displayName: Deploy to Dev
+  displayName: Deploy stage
   dependsOn: Build
+
   jobs:
-  - job: Deploy
-    displayName: Deploy to AKS
+  - deployment: Deploy
+    displayName: Deploy
     pool:
-      vmImage: ubuntu-latest
-    steps:
-    - task: DownloadPipelineArtifact@2
-      inputs:
-        buildType: 'current'
-        targetPath: '$(Pipeline.Workspace)/manifests'
+      vmImage: $(vmImageName)
+    environment: 'regan035NETcapstone.default'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - task: KubernetesManifest@0
+            displayName: Create imagePullSecret
+            inputs:
+              action: createSecret
+              secretName: $(imagePullSecret)
+              dockerRegistryEndpoint: $(dockerRegistryServiceConnection)
 
-    - task: KubernetesManifest@0
-      inputs:
-        action: 'createSecret'
-        kubernetesServiceConnection: 'Kube-jumpCapStone-default-1670392713045'
-        namespace: 'jumpcapstone'
-        secretType: 'dockerRegistry'
-        secretName: '$(acrsecret)'
-        dockerRegistryEndpoint: 'jumpImage'
+          - task: KubernetesManifest@0
+            displayName: Deploy to Kubernetes cluster
+            inputs:
+              action: deploy
+              manifests: |
+                $(Pipeline.Workspace)/manifests/deployment.yml
+                $(Pipeline.Workspace)/manifests/service.yml
+              imagePullSecrets: |
+                $(imagePullSecret)
+              containers: |
+                $(containerRegistry)/$(imageRepository):$(tag)
 
-      
-    - task: KubernetesManifest@0
-      inputs:
-        action: 'deploy'
-        kubernetesServiceConnection: 'Kube-jumpCapStone-default-1670392713045'
-        namespace: 'jumpcapstone'
-        manifests: 
-          $(Pipeline.Workspace)/manifests/deployment.yml
-          $(Pipeline.Workspace)/manifests/service.yml

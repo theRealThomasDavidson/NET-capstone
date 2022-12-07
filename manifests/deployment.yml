@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: regannetcapstone 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: regannetcapstone
+  template:
+    metadata:
+      labels:
+        app: regannetcapstone 
+    spec:
+      containers:
+        - name: regannetcapstone 
+          image: jumpcapstone.azurecr.io/regannetcapstone
+          ports:
+          - containerPort: 80
