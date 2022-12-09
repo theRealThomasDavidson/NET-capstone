@@ -1,4 +1,4 @@
-﻿@model Enrollment
+﻿@model StudentProjectAttempt6.Models.ViewModels.EnrollmentViewModel
 
 <form method="post">
     <div class="border p-3 mt-4">
@@ -7,12 +7,12 @@
         </div>
         <div asp-validation-summary="All" />
         <div class="mb-3">
-            <label asp-for="StudentId"></label>
-            <input asp-for="StudentId" class="form-control" />
+            <label asp-for="Enrollment.StudentId"></label>
+            <select asp-for="Enrollment.StudentId" class="form-control" asp-items="@Model.StudentsList"></select>
         </div>
         <div class="mb-3">
-            <label asp-for="Grade"></label>
-            <input asp-for="Grade" class="form-control" />
+            <label asp-for="Enrollment.Grade"></label>
+            <input asp-for="Enrollment.Grade" class="form-control" />
         </div>
         <button type="submit" class="btn btn-primary">Create </button>
         <a asp-controller="Enrollment" asp-action="Index" class="btn btn-secondary">
