@@ -2,9 +2,11 @@
 using Microsoft.AspNetCore.Mvc;
 using StudentProjectAttempt6.Models;
 using StudentProjectAttempt6.Repository.IRepository;
+using Microsoft.AspNetCore.Authorization;
 
 namespace StudentProjectAttempt6.Controllers
 {
+    [Authorize]
     public class StudentController: Controller
     {
         //private readonly ApplicationDbContext _db;
@@ -15,6 +17,8 @@ namespace StudentProjectAttempt6.Controllers
         {
             _unitOfWork = unitOfWork;
         }
+
+        
         public IActionResult Index()
         {
             IEnumerable<Student> objStudentList = _unitOfWork.Student.GetAll();

@@ -2,10 +2,11 @@
 using Microsoft.AspNetCore.Mvc;
 using StudentProjectAttempt6.Models;
 using StudentProjectAttempt6.Repository.IRepository;
-
+using Microsoft.AspNetCore.Authorization;
 
 namespace EnrollmentProjectAttempt6.Controllers
 {
+    [Authorize]
     public class EnrollmentController: Controller
     {
         private readonly IUnitOfWork _unitOfWork;
