@@ -4,9 +4,11 @@ using StudentProjectAttempt6.Models.ViewModels;
 using StudentProjectAttempt6.Repository.IRepository;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Authorization;
 
 namespace EnrollmentProjectAttempt6.Controllers
 {
+    [Authorize]
     public class EnrollmentController: Controller
     {
         private readonly IUnitOfWork _unitOfWork;

@@ -5,77 +5,108 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StudentProjectAttempt6
 build_property.RootNamespace = StudentProjectAttempt6
-build_property.ProjectDir = C:\jumpcapstone\NET-capstone\StudentProjectAttempt6\
+build_property.ProjectDir = C:\Users\esvba\Desktop\Capstone New\NET-capstone\StudentProjectAttempt6\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\jumpcapstone\NET-capstone\StudentProjectAttempt6
+build_property.MSBuildProjectDirectory = C:\Users\esvba\Desktop\Capstone New\NET-capstone\StudentProjectAttempt6
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/jumpcapstone/NET-capstone/StudentProjectAttempt6/Views/Enrollment/Create.cshtml]
+[C:/Users/esvba/Desktop/Capstone New/NET-capstone/StudentProjectAttempt6/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esvba/Desktop/Capstone New/NET-capstone/StudentProjectAttempt6/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esvba/Desktop/Capstone New/NET-capstone/StudentProjectAttempt6/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esvba/Desktop/Capstone New/NET-capstone/StudentProjectAttempt6/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esvba/Desktop/Capstone New/NET-capstone/StudentProjectAttempt6/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esvba/Desktop/Capstone New/NET-capstone/StudentProjectAttempt6/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esvba/Desktop/Capstone New/NET-capstone/StudentProjectAttempt6/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esvba/Desktop/Capstone New/NET-capstone/StudentProjectAttempt6/Views/Enrollment/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/jumpcapstone/NET-capstone/StudentProjectAttempt6/Views/Enrollment/Delete.cshtml]
+[C:/Users/esvba/Desktop/Capstone New/NET-capstone/StudentProjectAttempt6/Views/Enrollment/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/jumpcapstone/NET-capstone/StudentProjectAttempt6/Views/Enrollment/Edit.cshtml]
+[C:/Users/esvba/Desktop/Capstone New/NET-capstone/StudentProjectAttempt6/Views/Enrollment/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/jumpcapstone/NET-capstone/StudentProjectAttempt6/Views/Enrollment/Index.cshtml]
+[C:/Users/esvba/Desktop/Capstone New/NET-capstone/StudentProjectAttempt6/Views/Enrollment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/jumpcapstone/NET-capstone/StudentProjectAttempt6/Views/Home/Index.cshtml]
+[C:/Users/esvba/Desktop/Capstone New/NET-capstone/StudentProjectAttempt6/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/jumpcapstone/NET-capstone/StudentProjectAttempt6/Views/Home/Privacy.cshtml]
+[C:/Users/esvba/Desktop/Capstone New/NET-capstone/StudentProjectAttempt6/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/jumpcapstone/NET-capstone/StudentProjectAttempt6/Views/Shared/Error.cshtml]
+[C:/Users/esvba/Desktop/Capstone New/NET-capstone/StudentProjectAttempt6/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/jumpcapstone/NET-capstone/StudentProjectAttempt6/Views/Shared/_Notification.cshtml]
+[C:/Users/esvba/Desktop/Capstone New/NET-capstone/StudentProjectAttempt6/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esvba/Desktop/Capstone New/NET-capstone/StudentProjectAttempt6/Views/Shared/_Notification.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/jumpcapstone/NET-capstone/StudentProjectAttempt6/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/esvba/Desktop/Capstone New/NET-capstone/StudentProjectAttempt6/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/jumpcapstone/NET-capstone/StudentProjectAttempt6/Views/Student/Create.cshtml]
+[C:/Users/esvba/Desktop/Capstone New/NET-capstone/StudentProjectAttempt6/Views/Student/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/jumpcapstone/NET-capstone/StudentProjectAttempt6/Views/Student/Delete.cshtml]
+[C:/Users/esvba/Desktop/Capstone New/NET-capstone/StudentProjectAttempt6/Views/Student/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/jumpcapstone/NET-capstone/StudentProjectAttempt6/Views/Student/Edit.cshtml]
+[C:/Users/esvba/Desktop/Capstone New/NET-capstone/StudentProjectAttempt6/Views/Student/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/jumpcapstone/NET-capstone/StudentProjectAttempt6/Views/Student/Index.cshtml]
+[C:/Users/esvba/Desktop/Capstone New/NET-capstone/StudentProjectAttempt6/Views/Student/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/jumpcapstone/NET-capstone/StudentProjectAttempt6/Views/_ViewImports.cshtml]
+[C:/Users/esvba/Desktop/Capstone New/NET-capstone/StudentProjectAttempt6/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/jumpcapstone/NET-capstone/StudentProjectAttempt6/Views/_ViewStart.cshtml]
+[C:/Users/esvba/Desktop/Capstone New/NET-capstone/StudentProjectAttempt6/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/jumpcapstone/NET-capstone/StudentProjectAttempt6/Views/Shared/_Layout.cshtml]
+[C:/Users/esvba/Desktop/Capstone New/NET-capstone/StudentProjectAttempt6/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-8ikqpvjwth
